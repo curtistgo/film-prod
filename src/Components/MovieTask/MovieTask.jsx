@@ -33,9 +33,9 @@ function MovieTask(props) {
         <>
         <h1 className="headstuff">The Fimmaking Process</h1>
         <p>
-            So, you think you're ready to begin shooting your film project. Everyone has their own Process for filmmaking, however, some steps are universal. Go through the checklist and make note of how you're doing in the comment field.
+            So, you think you're ready to begin shooting your film project. Everyone has their own process for filmmaking, however, some steps are universal. Go through the checklist and make note of how you're doing in the comment field.
         </p>
-        <h3>Universal Checklist</h3>
+        <h3>Universal Checklist - Preproduction</h3>
         <div className="checklist">
             <ul>
                 <li><TaskList /></li>
