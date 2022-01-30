@@ -14,7 +14,7 @@ function YourList(props) {
 
     const choreItem = props.chores.map((chore) =>
         <div className="checklist">
-            <li key={chore.id}>
+            <li className="list-style" key={chore.id}>
                 {chore.task}: {chore.comment}
                 <button className="btn-style btn-delete" data-id={chore.id} onClick={handleDelete}>Delete</button>
             </li>
