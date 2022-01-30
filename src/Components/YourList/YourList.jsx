@@ -23,8 +23,11 @@ function YourList(props) {
     )
     return (
         <>
-            <h3>Your List</h3>
-            <ul>{choreItem}</ul>
+            <div className="body-style">
+                <h3>Your List</h3>
+                <ul>{choreItem}</ul>
+            </div>
+           
         </>
     );
 }
