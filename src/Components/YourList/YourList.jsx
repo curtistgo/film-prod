@@ -1,3 +1,5 @@
+import "../YourList/YourList.css";
+
 /*
     props.chore [
         { task: "first task", comment: "first comment", id: 1 },
@@ -6,17 +8,25 @@
 */
 function YourList(props) {
     const handleDelete = (event) => {
-        debugger;
+       
        props.deleteChore(event.target.dataset.id);
     }
 
     const choreItem = props.chores.map((chore) =>
-        <li key={chore.id}>
-            {chore.task}: {chore.comment}
-            <button data-id={chore.id} onClick={handleDelete}>Delete</button>
-        </li>
+        <div className="checklist">
+            <li key={chore.id}>
+                {chore.task}: {chore.comment}
+                <button className="btn-style btn-delete" data-id={chore.id} onClick={handleDelete}>Delete</button>
+            </li>
+        </div>
+        
     )
-    return <ul>{choreItem}</ul>
+    return (
+        <>
+            <h3>Your List</h3>
+            <ul>{choreItem}</ul>
+        </>
+    );
 }
 
 export default YourList;

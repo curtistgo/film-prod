@@ -25,7 +25,7 @@ function MovieTask(props) {
     }
 
     const deleteChore = (id) => {
-        const newChoreList = choreItem.filter(chore => chore.id !== id);
+        const newChoreList = choreItem.filter(chore => chore.id.toString() !== id);
         setChoreItem(newChoreList);
     }
 

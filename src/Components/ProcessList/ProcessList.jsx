@@ -37,7 +37,7 @@ function ProcessList(props) {
                     </label>
                 </div>
                 <div  className="form-item">
-                    <button type="submit">Add</button>
+                    <button type="submit" className="btn-style">Add</button>
                 </div>
             </form>       
         </>

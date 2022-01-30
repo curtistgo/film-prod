@@ -1,5 +1,4 @@
 import './App.css';
-import { useState } from 'react';
 import MovieTask from './Components/MovieTask/MovieTask';
 
 function App() {
