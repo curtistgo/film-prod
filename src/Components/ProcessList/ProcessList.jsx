@@ -25,16 +25,23 @@ function ProcessList(props) {
         <>
             <form action="#" method="GET" onSubmit={handleSubmit}>
                 <div className="form-item">
-                    <label>
-                        Task:
-                        <input type="text" name="task" className="text-field" />
-                    </label>
+                        <div>
+                            <label>Task:</label>
+                        </div>
+                    
+                        <div>
+                            <input type="text" name="task" className="text-field" />
+                        </div>
+                       
                 </div>
+
                 <div className="form-item">
-                    <label>
-                        Comment:
+                    <div>
+                        <label>Comment:</label>
+                    </div>
+                    <div>
                         <input type="text" name="comment" className="text-field" />
-                    </label>
+                    </div>
                 </div>
                 <div  className="form-item">
                     <button type="submit" className="btn-style">Add</button>

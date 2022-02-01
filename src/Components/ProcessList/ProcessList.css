@@ -1,12 +1,9 @@
 .form-item {
-    display: flex;
     margin: 15px;
-    align-items: flex-start;
+    text-align: left;
 }
 
-.text-field {
-    margin-left: 10px;
-}
+
 
 label {
     cursor: pointer;
