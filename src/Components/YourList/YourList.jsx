@@ -25,7 +25,7 @@ function YourList(props) {
         <>
             <div className="body-style">
                 <h3>Your List</h3>
-                <ul>{choreItem}</ul>
+                <ul className="list-content">{choreItem}</ul>
             </div>
            
         </>
